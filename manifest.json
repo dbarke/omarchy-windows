@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dbarke.windows",
+  "name": "Window search",
+  "version": "0.1.0",
+  "author": "dbarke",
+  "license": "MIT",
+  "description": "Type to find an open window by title, app or workspace and jump to it, or bring it to where you are.",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Windows.qml"
+  }
+}
